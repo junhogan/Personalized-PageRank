@@ -32,7 +32,7 @@ Be careful with the format. We don't provide sanity check of the input graph for
 
 ## Clean the graphs
 
-We don't use the raw-datasets directly. This function removes vertices without incoming nor outgoing edge, and relabels the ids of the rest vertices, starting from integer 0.
+We don't use the raw-datasets directly. This function removes vertices without incoming or outgoing edge, and relabels the ids of the rest vertices, starting from integer 0.
 
 ```sh
 $ build/SpeedPPR -algo CLEAN_GRAPH \
